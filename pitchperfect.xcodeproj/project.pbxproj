@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		860F49DF21761DA10080B7CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F49DE21761DA10080B7CC /* AppDelegate.swift */; };
-		860F49E121761DA10080B7CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F49E021761DA10080B7CC /* ViewController.swift */; };
+		860F49E121761DA10080B7CC /* RecordSoundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F49E021761DA10080B7CC /* RecordSoundVC.swift */; };
 		860F49E421761DA10080B7CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860F49E221761DA10080B7CC /* Main.storyboard */; };
 		860F49E621761DA20080B7CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860F49E521761DA20080B7CC /* Assets.xcassets */; };
 		860F49E921761DA20080B7CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860F49E721761DA20080B7CC /* LaunchScreen.storyboard */; };
+		860F49F12176263D0080B7CC /* PlaySoundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F49F02176263D0080B7CC /* PlaySoundVC.swift */; };
+		860F49F3217633B60080B7CC /* PlaySoundVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F49F2217633B60080B7CC /* PlaySoundVCExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		860F49DB21761DA10080B7CC /* pitchperfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pitchperfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		860F49DE21761DA10080B7CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		860F49E021761DA10080B7CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		860F49E021761DA10080B7CC /* RecordSoundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundVC.swift; sourceTree = "<group>"; };
 		860F49E321761DA10080B7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		860F49E521761DA20080B7CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		860F49E821761DA20080B7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		860F49EA21761DA20080B7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		860F49F02176263D0080B7CC /* PlaySoundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundVC.swift; sourceTree = "<group>"; };
+		860F49F2217633B60080B7CC /* PlaySoundVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundVCExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				860F49DE21761DA10080B7CC /* AppDelegate.swift */,
-				860F49E021761DA10080B7CC /* ViewController.swift */,
+				860F49E021761DA10080B7CC /* RecordSoundVC.swift */,
+				860F49F02176263D0080B7CC /* PlaySoundVC.swift */,
+				860F49F2217633B60080B7CC /* PlaySoundVCExtension.swift */,
 				860F49E221761DA10080B7CC /* Main.storyboard */,
 				860F49E521761DA20080B7CC /* Assets.xcassets */,
 				860F49E721761DA20080B7CC /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				860F49E121761DA10080B7CC /* ViewController.swift in Sources */,
+				860F49E121761DA10080B7CC /* RecordSoundVC.swift in Sources */,
+				860F49F12176263D0080B7CC /* PlaySoundVC.swift in Sources */,
+				860F49F3217633B60080B7CC /* PlaySoundVCExtension.swift in Sources */,
 				860F49DF21761DA10080B7CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
